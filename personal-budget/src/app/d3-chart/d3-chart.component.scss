@@ -1,0 +1,16 @@
+#d3chart {
+  position: relative;
+  margin: 20px;
+
+  .bar {
+    transition: fill 0.2s ease;
+    
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  text {
+    font-size: 12px;
+  }
+}
