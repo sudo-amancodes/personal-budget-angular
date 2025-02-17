@@ -1,6 +1,6 @@
 <main class="center" id="main" role="main">
     <!-- This is a Semantic HTML Change (I changed div to section) -->
-
+    <aw-breadcrumbs></aw-breadcrumbs>
     <section class="page-area">
 
         <!-- This is a Semantic HTML Change (I changed h1 tags to h2) -->
@@ -63,14 +63,14 @@
 
         <article>
             <h2>Chart</h2>
-
-
-            <canvas id="myChart" width="400" height="400"></canvas>
-
+            <div>
+                <canvas id="myChart" width="400" height="400"></canvas>
+            </div>
         </article>
         <article>
             <h2>D3 Chart</h2>
-            <div id="d3chart"></div>
+            <aw-d3-chart></aw-d3-chart>
+
         </article>
     </section>
 
